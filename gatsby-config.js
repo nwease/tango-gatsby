@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: `/tangogatsby/`,
   siteMetadata: {
     title: `Tango Brands`,
     description: `This is Nick Brands`,
