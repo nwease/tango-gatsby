@@ -10,15 +10,15 @@ import 'bootstrap/dist/css/bootstrap-grid.css'
 
 const Primary = styled.main `
     padding: 110px 0 0 0;
-`
+`;
 
 const Layout = ({ children }) => {
 
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const handleOverlayMenu = () => {
     setMenuOpen(!menuOpen)
-  }
+  };
 
   return (
     <>
@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired
-}
+};
 
 export default Layout
 
